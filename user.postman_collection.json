@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "be086a17-774f-4eb0-9c28-164230cc7dc1",
+		"name": "user",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39209730"
+	},
+	"item": [
+		{
+			"name": "sighnup",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "confirm-email",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "profile",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "share profile",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update Password",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "freeze Account",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "message",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "ADMIN_TOKEN",
+			"value": "admin eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NmIyOTBmOTcwMzM1YjhjMzg1NDQ0YSIsImlzTG9nZ2VkSW4iOnRydWUsIm5hbWUiOiJKb2huIERvZSIsImlhdCI6MTczNTA3NjYzNSwiZXhwIjoxNzM1MDgwMjM1fQ.1suXXoDjA3cGpnPKqVQpG6x60B6FUluUqq5Pi3uw75A"
+		},
+		{
+			"key": "USER_TOKEN",
+			"value": "{{ADMIN_TOKEN}}"
+		}
+	]
+}

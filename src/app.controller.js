@@ -1,6 +1,5 @@
 import authController from "./modules/auth/auth.controller.js";
 import userController from "./modules/user/user.controller.js";
-// import notesController from './modules/notes/notes.controller.js'
 import connectDB from "./DB/connection.js";
 import { globalErrorHandling } from "./utils/error/error.js";
 import messageController from "./modules/message/message.controller.js";
